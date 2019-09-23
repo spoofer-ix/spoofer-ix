@@ -1,0 +1,74 @@
+{
+    "80711FF77C82": [
+        [
+            1916,
+            "colocation-facility-1",
+            "IXP-LABEL",
+            2
+        ]
+    ],
+    "444CA8C45A21": [
+        [
+            2906,
+            "colocation-facility-2",
+            "IXP-LABEL",
+            2
+        ]
+    ],
+    "4C5E0CF65698": [
+        [
+            28165,
+            "colocation-facility-1",
+            "IXP-LABEL",
+            1
+        ]
+    ],
+    "6C3B6BF4C74B": [
+        [
+            28283,
+            "colocation-facility-3",
+            "IXP-LABEL",
+            2
+        ]
+    ],
+    "6C3BE5BEAFF3": [
+        [
+            262458,
+            "colocation-facility-3",
+            "IXP-LABEL",
+            1
+        ]
+    ],
+    "ACF970858957": [
+        [
+            265252,
+            "colocation-facility-1",
+            "IXP-LABEL",
+            1
+        ]
+    ],
+    "CC2DE0E48424": [
+        [
+            268496,
+            "colocation-facility-1",
+            "IXP-LABEL",
+            1
+        ]
+    ],
+    "D4CA6D74954E": [
+        [
+            53145,
+            "colocation-facility-4",
+            "IXP-LABEL",
+            2
+        ]
+    ],
+    "F04B3ADF7DB3": [
+        [
+            13335,
+            "colocation-facility-2",
+            "IXP-LABEL",
+            1
+        ]
+    ]
+}

@@ -1,0 +1,5 @@
+*.pyc
+share/*
+!fullcone-imc17/bin/
+data/input/geolocation-db/netacq-edge/*netacq-4*
+sendgrid.env

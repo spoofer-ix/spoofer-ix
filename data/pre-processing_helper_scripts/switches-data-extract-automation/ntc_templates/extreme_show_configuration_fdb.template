@@ -1,0 +1,6 @@
+Value MACADDRESS (\S+)
+Value VLANLABEL (.*?)
+Value port_number (\d+)
+
+Start
+  ^create (fdbentry|fdb) ${MACADDRESS} vlan "${VLANLABEL}" port ${port_number} -> Record

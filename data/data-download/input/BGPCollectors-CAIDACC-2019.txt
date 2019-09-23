@@ -1,0 +1,39 @@
+# Ripe servers
+# http://www.ripe.net/projects/ris/rawdata.html
+ripe rrc00 rib http://data.ris.ripe.net/rrc00/
+ripe rrc01 rib http://data.ris.ripe.net/rrc01/
+ripe rrc03 rib http://data.ris.ripe.net/rrc03/
+ripe rrc04 rib http://data.ris.ripe.net/rrc04/
+ripe rrc05 rib http://data.ris.ripe.net/rrc05/
+ripe rrc06 rib http://data.ris.ripe.net/rrc06/
+ripe rrc07 rib http://data.ris.ripe.net/rrc07/
+ripe rrc10 rib http://data.ris.ripe.net/rrc10/
+ripe rrc11 rib http://data.ris.ripe.net/rrc11/
+ripe rrc12 rib http://data.ris.ripe.net/rrc12/
+ripe rrc13 rib http://data.ris.ripe.net/rrc13/
+ripe rrc14 rib http://data.ris.ripe.net/rrc14/
+ripe rrc15 rib http://data.ris.ripe.net/rrc15/
+ripe rrc16 rib http://data.ris.ripe.net/rrc16/
+ripe rrc18 rib http://data.ris.ripe.net/rrc18/
+ripe rrc19 rib http://data.ris.ripe.net/rrc19/
+ripe rrc20 rib http://data.ris.ripe.net/rrc20/
+ripe rrc21 rib http://data.ris.ripe.net/rrc21/
+
+# Routeviews servers
+routeviews route-views2 rib http://archive.routeviews.org/bgpdata/
+routeviews route-views3 rib http://archive.routeviews.org/route-views3/bgpdata/
+routeviews route-views.eqix rib http://archive.routeviews.org/route-views.eqix/bgpdata/
+routeviews route-views.isc rib http://archive.routeviews.org/route-views.isc/bgpdata/
+routeviews route-views.jinx rib http://routeviews.org/route-views.jinx/bgpdata/
+routeviews route-views.kixp rib http://archive.routeviews.org/route-views.kixp/bgpdata/
+routeviews route-views.linx rib http://archive.routeviews.org/route-views.linx/bgpdata/
+routeviews route-views.nwax rib http://routeviews.org/route-views.nwax/bgpdata/
+routeviews route-views.perth rib http://routeviews.org/route-views.perth/bgpdata/
+routeviews route-views.saopaulo rib http://archive.routeviews.org/route-views.saopaulo/bgpdata/
+routeviews route-views2.saopaulo rib http://archive.routeviews.org/route-views2.saopaulo/bgpdata/
+routeviews route-views.sfmix rib http://archive.routeviews.org/route-views.sfmix/bgpdata/
+routeviews route-views.sg rib http://archive.routeviews.org/route-views.sg/bgpdata/
+routeviews route-views.soxrs rib http://routeviews.org/route-views.soxrs/bgpdata/
+routeviews route-views.sydney rib http://archive.routeviews.org/route-views.sydney/bgpdata/
+routeviews route-views.telxatl rib http://routeviews.org/route-views.telxatl/bgpdata/
+routeviews route-views.wide rib http://archive.routeviews.org/route-views.wide/bgpdata/

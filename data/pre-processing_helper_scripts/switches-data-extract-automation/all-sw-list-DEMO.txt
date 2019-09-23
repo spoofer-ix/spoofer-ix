@@ -1,0 +1,2 @@
+192.168.0.3=extreme=COLO-1=IXP-ID
+192.168.0.4=extreme=COLO-2=IXP-ID

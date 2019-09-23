@@ -1,0 +1,49 @@
+# MAY -- 2019
+#https://www.ripe.net/analyse/internet-measurements/routing-information-service-ris/ris-raw-data
+http://data.ris.ripe.net/rrc00/2019.05/
+http://data.ris.ripe.net/rrc01/2019.05/
+#02 - no records
+http://data.ris.ripe.net/rrc03/2019.05/
+http://data.ris.ripe.net/rrc04/2019.05/
+http://data.ris.ripe.net/rrc05/2019.05/
+http://data.ris.ripe.net/rrc06/2019.05/
+http://data.ris.ripe.net/rrc07/2019.05/
+#08 - no records
+#09 - no records
+http://data.ris.ripe.net/rrc10/2019.05/
+http://data.ris.ripe.net/rrc11/2019.05/
+http://data.ris.ripe.net/rrc12/2019.05/
+http://data.ris.ripe.net/rrc13/2019.05/
+http://data.ris.ripe.net/rrc14/2019.05/
+http://data.ris.ripe.net/rrc15/2019.05/
+http://data.ris.ripe.net/rrc16/2019.05/
+#17 do not exists
+http://data.ris.ripe.net/rrc18/2019.05/
+http://data.ris.ripe.net/rrc19/2019.05/
+http://data.ris.ripe.net/rrc20/2019.05/
+http://data.ris.ripe.net/rrc21/2019.05/
+
+# JUNE -- 2019
+#https://www.ripe.net/analyse/internet-measurements/routing-information-service-ris/ris-raw-data
+http://data.ris.ripe.net/rrc00/2019.06/
+http://data.ris.ripe.net/rrc01/2019.06/
+#02 - no records
+http://data.ris.ripe.net/rrc03/2019.06/
+http://data.ris.ripe.net/rrc04/2019.06/
+http://data.ris.ripe.net/rrc05/2019.06/
+http://data.ris.ripe.net/rrc06/2019.06/
+http://data.ris.ripe.net/rrc07/2019.06/
+#08 - no records
+#09 - no records
+http://data.ris.ripe.net/rrc10/2019.06/
+http://data.ris.ripe.net/rrc11/2019.06/
+http://data.ris.ripe.net/rrc12/2019.06/
+http://data.ris.ripe.net/rrc13/2019.06/
+http://data.ris.ripe.net/rrc14/2019.06/
+http://data.ris.ripe.net/rrc15/2019.06/
+http://data.ris.ripe.net/rrc16/2019.06/
+#17 do not exists
+http://data.ris.ripe.net/rrc18/2019.06/
+http://data.ris.ripe.net/rrc19/2019.06/
+http://data.ris.ripe.net/rrc20/2019.06/
+http://data.ris.ripe.net/rrc21/2019.06/

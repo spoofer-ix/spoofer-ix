@@ -1,0 +1,3 @@
+show ports no
+show configuration fdb
+sh configuration | i display-string

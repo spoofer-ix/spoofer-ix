@@ -1,0 +1,5 @@
+Value display_port_string (.*)
+Value port_number (\d+)
+
+Start
+  ^(configure ports) ${port_number} (display-string) ${display_port_string} -> Record

@@ -1,0 +1,24 @@
+[
+{"namespace": "nfcapd-shrink.avro",
+ "type": "record",
+ "name": "RawFlowRecord",
+ "fields": [
+     {"name": "ts", "type": ["null", "int"], "doc": "Start Time - first seen"},
+     {"name": "te", "type": ["null", "int"], "doc": "End Time - last seen"},
+     {"name": "td", "type": ["null", "float"], "doc": "Duration"},
+     {"name": "sa", "type": [{"name": "sa6", "type": "fixed", "size": 16 },{"name": "sa4", "type": "fixed", "size": 4 }], "doc": "Source Address"},
+     {"name": "da", "type": [{"name": "da6", "type": "fixed", "size": 16 },{"name": "da4", "type": "fixed", "size": 4 }], "doc": "Destination Address"},
+     {"name": "sp", "type": ["null", "int"], "doc": "Source Port"},
+     {"name": "dp", "type": ["null", "int"], "doc": "Destination Port"},
+     {"name": "pr", "type": ["null", "int"], "doc": "Protocol"},
+     {"name": "flg", "type": ["null", "int"], "doc": "TCP Flags"},
+     {"name": "ipkt", "type": ["null", "int"], "doc": "Input Packets"},
+     {"name": "ibyt", "type": ["null", "long"], "doc": "Input Bytes"},
+     {"name": "svln", "type": ["null", "int"], "doc": "Src vlan label"},
+     {"name": "ismc", "type": ["null", {"name": "macis", "type": "fixed", "size": 6 }], "doc": "Input Src Mac Addr"},
+     {"name": "odmc", "type": ["null", {"name": "macod", "type": "fixed", "size": 6 }], "doc": "Output Dst Mac Addr"},
+     {"name": "ra", "type": ["null", {"name": "ra6", "type": "fixed", "size": 16 },{"name": "ra4", "type": "fixed", "size": 4 }], "doc": "Router IP Address"},
+     {"name": "tag", "type": ["null", "int"], "default": "null", "doc": "Tag used to identify the sub-categories in the Unverifiable traffic."}
+ ]
+}
+]
