@@ -5,12 +5,25 @@
 # 2) create a file w/ the code here under /root dir
 # 3) execute it: sh setup-vm.sh
 
+# check for version of ubuntu
+version=$(lsb_release -sr)
+echo "INFO: version of Ubuntu is $version"
+
 # install all software dependencies
 echo '###installing all software dependencies..'
-apt update -y || (echo "Error: apt update before python pip" && exit 255)
-apt install -y python-pip nfdump libsnappy-dev htop || (echo "Error: apt install" && exit 255)
-apt install -y build-essential libssl-dev libffi-dev python-dev zlib1g-dev libbz2-dev unzip libcurl3 automake autoconf || (echo "Error: apt install" && exit 255)
-apt install -y python3-pip htop || (echo "Error: apt install" && exit 255)
+apt update -y || (echo "Error: apt update error" && exit 255)
+apt install -y python-pip nfdump libsnappy-dev htop curl unzip || (echo "Error: apt install #1" && exit 255)
+
+case $version in
+16.04)
+    apt install -y libcurl3 || (echo "Error: apt install libcurl3" && exit 255)
+    ;;
+18.04)
+    apt install -y libcurl4 || (echo "Error: apt install libcurl4" && exit 255)
+esac
+
+apt install -y build-essential libssl-dev libffi-dev python-dev zlib1g-dev libbz2-dev automake autoconf || (echo "Error: apt install #2" && exit 255)
+apt install -y python3-pip htop || (echo "Error: apt install #3" && exit 255)
 
 pip3 install scrapy --upgrade
 pip3 install service_identity
@@ -25,15 +38,6 @@ git lfs install
 # do clone from Github repository
 echo '###cloning from Github repository..'
 git lfs clone https://github.com/spoofer-ix/spoofer-ix.git || (echo "Error: git clone" && exit 255)
-
-# install and setup Apache Avro
-echo '###installing Apache Avro..'
-wget http://ftp.unicamp.br/pub/apache/avro/avro-1.9.0/py/avro-1.9.0.tar.gz || (echo "Error: wget avro" && exit 255)
-tar xvf avro-1.9.0.tar.gz
-cd avro-1.9.0
-python setup.py install || (echo "Error: avro install" && exit 255)
-cd ..
-
 
 # RIPENCC BGPdump source code download and compilation
 echo '###installing RIPENCC BGPdump ...'
@@ -62,10 +66,6 @@ rm -rf wandio-1.0.4.tar.gz
 #########
 cpan -i install Net::Patricia
 cpan -i install Parallel::ForkManager
-
-# cleaning temporary files downloaded
-echo '###cleaning temp downloaded files..'
-rm -rf avro-1.9.0.tar.gz avro-1.9.0/ || (echo "Error: deleting files downloaded" && exit 255)
 
 # install all project requirements
 echo '###installing Spoofer-IX requirements..'
