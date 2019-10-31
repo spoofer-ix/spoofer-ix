@@ -41,14 +41,14 @@ git lfs clone https://github.com/spoofer-ix/spoofer-ix.git || (echo "Error: git 
 
 # RIPENCC BGPdump source code download and compilation
 echo '###installing RIPENCC BGPdump ...'
-wget https://bitbucket.org/ripencc/bgpdump/get/fa473c477531.zip
-unzip fa473c477531.zip
-mv ripencc-bgpdump-fa473c477531 ripencc-bgpdump
+wget https://bitbucket.org/ripencc/bgpdump-hg/get/1.6.0.zip || (echo "Error: downloading RIPENCC BGPdump" && exit 255)
+unzip 1.6.0.zip
+mv ripencc-bgpdump-hg-6be858c0cc9e ripencc-bgpdump
 cd ripencc-bgpdump
 sh ./bootstrap.sh
 make
 cd ..
-rm -rf fa473c477531.zip
+rm -rf 1.6.0.zip
 
 echo '# installing wandio ...'
 curl -O https://research.wand.net.nz/software/wandio/wandio-1.0.4.tar.gz
