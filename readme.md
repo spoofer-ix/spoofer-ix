@@ -176,7 +176,7 @@ To check your installation run the following commands to execute a traffic class
 1) go to project root directory: `cd spoofer-ix/`;
 2) then copy/past the following command line:
 ```
-python flow-tools-analysis/illegitimate_traffic_classification.py -tw 201905010800-201905010800 -filter "{'ip': 4}" -tmpdir /mnt/tmp/ -flowdir /root/spoofer-ix/data/flow-data-demo/ -c 3 -fut "[0,1,1,1,0,1,1,1]" -ccid 8 -gcf 0 -coneases data/input/customer-cone-data/ipv4/may19/per-week/demo/20190501.7days.midnightRIB.ppdc-ases-DEMO.txt.bz2 -coneprefix data/input/customer-cone-data/ipv4/may19/per-week/demo/20190501.7days.midnightRIB.ppdc-prefix-DEMO.txt.bz2 > out_classif.log
+python flow-tools-analysis/illegitimate_traffic_classification.py -tw 201905010800-201905010800 -filter "{'ip': 4}" -tmpdir /mnt/ -flowdir /root/spoofer-ix/data/flow-data-demo/ -c 3 -fut "[0,1,1,1,0,1,1,1]" -ccid 8 -gcf 0 -coneases data/input/customer-cone-data/ipv4/may19/per-week/demo/20190501.7days.midnightRIB.ppdc-ases-DEMO.txt.bz2 -coneprefix data/input/customer-cone-data/ipv4/may19/per-week/demo/20190501.7days.midnightRIB.ppdc-prefix-DEMO.txt.bz2 > out_classif.log
 ```
 
 *Note:* we assume you have the project sitting under `/root/spoofer-ix/` so in case this is not true you must change path parameters accordingly to make it work.
