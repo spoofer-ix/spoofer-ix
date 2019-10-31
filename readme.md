@@ -60,6 +60,9 @@ There are two basic ways you can setup your project environment:
 *If you are getting started, we strongly advise using option 1 in a fresh Ubuntu 16.04/18.04 LTS*. The fresh SO requirement is essential because otherwise in already existing envs will be necessary for you to check for existing softwares conflicts to potentially avoid breaking dependencies of other existing projects. 
 
 ### Automatic setup (Ubuntu 16.04/18.04 LTS):
+    > Note: by following the automatic setup you shouldn't clone the repo, but instead only copy the 
+    shell script `setup-project-local-env.sh` (indicated below), which will clone the repo as part of 
+    its process, as well as configure the necessary dependencies.
 1) as root user do;
 2) copy and paste the file/code from `utilities/localenv-helper-scripts/setup-project-local-env.sh` under a working dir of your choice. In this documentation we use: `/root` dir.
 3) execute it: `sh setup-project-local-env.sh`
@@ -138,6 +141,7 @@ The Snappy C library is needed when the codec "snappy" is set to serialize/deser
 4. To run data analysis which perform IP Addresses geo location our code base supports MaxMind Geolite2 (free) and 
 NetAcuity Edge (requires license). The system default is currently employing NetAcuity Edge and for that it requires to 
 install the `CAIDA libipmeta` and `CAIDA pyIpmeta` projects (only authorized personel due to NetAcuity Edge licensing). However, we also provide a fallback code which uses MaxMind Geolite2 API/databases (API installed by default if you follow the instructions; the datasets you may need to look for the ones you need).
+    > Note that the usage of the distinct geolocation APIs -- Netacuity vs. Maxmind -- may cause some differences in the results. Small variations may appear in Figure 11 of our results. As we used the country level geolocation, we do not expect many differences between the two databases at this level.
 
 5. Sendgrid's (https://app.sendgrid.com, create a free account) email notification system. 
 Update your development environment with your SENDGRID_API_KEY. Run the following in your shell:
