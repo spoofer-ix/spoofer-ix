@@ -202,6 +202,27 @@ You can always send an email. Please include the following information in the me
 ###  Contact
 Lucas F. Müller (lfmuller@inf.ufrgs.br)
 
+###  Citation
+If you find this repo or the corresponding paper useful in your research, please consider citing:
+
+```
+ @inproceedings{
+ author = {M\"{u}ller, Lucas and Luckie, Matthew and Huffaker, Bradley and Claffy, Kc and Barcellos, Marinho},
+ title = {Challenges in Inferring Spoofed Traffic at IXPs},
+ year = {2019},
+ isbn = {9781450369985},
+ publisher = {Association for Computing Machinery},
+ address = {New York, NY, USA},
+ url = {https://doi.org/10.1145/3359989.3365422},
+ doi = {10.1145/3359989.3365422},
+ booktitle = {Proceedings of the 15th International Conference on Emerging Networking Experiments And Technologies},
+ pages = {96–109},
+ numpages = {14},
+ location = {Orlando, Florida},
+ series = {CoNEXT ’19}
+}
+```
+
 
 ###  License
 CAIDA, UC San Diego & INF/UFRGS
